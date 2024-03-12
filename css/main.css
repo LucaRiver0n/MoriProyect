@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&display=swap");
 body {
+  display: flex;
   margin: 0;
   padding: 0;
+  flex-flow: column wrap;
 }
 
 header {
@@ -29,14 +31,15 @@ header a:hover {
 
 main {
   display: flex;
+  flex-direction: column;
 }
 main #inicio {
   display: flex;
   flex-flow: column wrap;
   background-color: rgb(17, 16, 16);
-  width: 100%;
+  width: 98, 5%;
   border: rgb(17, 16, 16) 14px solid;
-  box-shadow: inset 0 0 0 1px rgb(255, 255, 255), 8px 8px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 1px rgb(255, 255, 255);
 }
 main #inicio .fotos-inicio {
   display: flex;
@@ -97,6 +100,38 @@ main #inicio .texto-inicio a {
 main #inicio .texto-inicio a:hover {
   transform: scale(1.1);
   transition: 0.2s ease;
+}
+main #fotosDeNosotros {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px 0 0 0;
+}
+main #fotosDeNosotros .titulo-fotos h2 {
+  font-family: Libre Baskerville, Arial;
+  font-weight: 300;
+  text-align: center;
+  align-items: center;
+  font-size: 40px;
+  color: rgb(17, 16, 16);
+}
+main #fotosDeNosotros .fotos {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0;
+  justify-content: center;
+}
+main #fotosDeNosotros .fotos img {
+  display: flex;
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+  margin: 0 40px;
+  box-shadow: 5px 3px 15px rgb(204, 204, 204);
+}
+main #fotosDeNosotros .fotos p {
+  text-align: center;
+  font-family: Outfit, Arial;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=main.css.map */
