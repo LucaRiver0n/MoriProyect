@@ -293,7 +293,8 @@ main .cartaCarta #carta .carta .texto-carta p {
   }
   body header {
     width: 389px;
-    height: 1%;
+    height: 6%;
+    position: fixed;
   }
   body header a {
     font-size: 9px;
