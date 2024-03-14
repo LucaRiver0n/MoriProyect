@@ -287,238 +287,250 @@ main .cartaCarta #carta .carta .texto-carta p {
   color: #551211;
 }
 
-@media (max-width: 480px) {
-  header {
-    width: 400px;
+@media (max-width: 1480px) {
+  body {
+    overflow-x: hidden;
+  }
+  body header {
+    width: 389px;
     height: 1%;
   }
-  header a {
+  body header a {
     font-size: 9px;
     margin: 0 1px;
   }
-  main {
+  body main {
     display: flex;
     flex-direction: column;
   }
-  main #inicio {
+  body main #inicio {
     width: 362px;
   }
-  main #inicio .fotos-inicio {
+  body main #inicio .fotos-inicio {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     margin: 30px 0;
   }
-  main #inicio .fotos-inicio img {
+  body main #inicio .fotos-inicio img {
     object-fit: cover;
     position: relative;
     margin: 0 10px;
   }
-  main #inicio .fotos-inicio .foto5 {
+  body main #inicio .fotos-inicio .foto5 {
     width: 300px;
     height: 30vh;
   }
-  main #inicio .fotos-inicio .foto1 {
+  body main #inicio .fotos-inicio .foto1 {
     width: 300px;
     height: 30vh;
   }
-  main #inicio .texto-inicio {
-    width: 500px;
+  body main #inicio .texto-inicio {
+    width: 350px;
     height: 40vh;
-    margin: 80px 0 0 -70px;
+    margin: 70px 0 0 20px;
   }
-  main #inicio .texto-inicio h1 {
+  body main #inicio .texto-inicio h1 {
+    width: 300px;
     font-weight: 300;
     font-size: 25px;
     margin: 10px;
   }
-  main #inicio .texto-inicio p {
+  body main #inicio .texto-inicio p {
+    width: 300px;
     font-weight: 400;
     font-size: 10px;
+    margin-right: 90px;
   }
-  main #inicio .texto-inicio a {
+  body main #inicio .texto-inicio a {
     font-size: 12px;
     padding: 5px;
     width: 80px;
-    margin-left: 200px;
+    margin-left: 100px;
   }
-  main #fotosDeNosotros {
+  body main #fotosDeNosotros {
+    width: 300px;
+  }
+  body main #fotosDeNosotros .titulo-fotos h2 {
     display: flex;
-    flex-flow: column wrap;
-    margin: 10px 0 0 0;
-  }
-  main #fotosDeNosotros .titulo-fotos h2 {
-    font-family: Libre Baskerville, Arial;
-    font-weight: 300;
+    margin-left: 35px;
+    margin-top: 20px;
     font-size: 20px;
-    color: rgb(17, 16, 16);
   }
-  main #fotosDeNosotros .fotos {
+  body main #fotosDeNosotros .fotos {
     display: flex;
     flex-direction: column;
-    margin: 40px 0;
-    justify-content: center;
+    margin: 20px 0;
   }
-  main #fotosDeNosotros .fotos img {
+  body main #fotosDeNosotros .fotos img {
     display: flex;
-    width: 200px;
+    width: 300px;
     height: 350px;
-    object-fit: cover;
-    margin: 0 40px;
-    box-shadow: 5px 3px 15px rgb(204, 204, 204);
+    margin: 20px 40px;
   }
-  main #fotosDeNosotros .fotos p {
+  body main #fotosDeNosotros .fotos p {
+    display: flex;
     font-family: Outfit, Arial;
     font-weight: 400;
+    margin-left: 180px;
   }
-  main #articulos {
+  body main #articulos {
     display: grid;
-    margin: 0 400px 100px 400px;
-    width: 1020px;
+    margin: 0 20px;
+    width: 363px;
   }
-  main #articulos .articulo1 {
+  body main #articulos .articulo1 {
     display: grid;
-    grid-template-columns: 35% 65%;
-    border: 2px solid black;
-    height: 300px;
-    margin-bottom: 80px;
+    grid-template-columns: unset;
+    grid-template-rows: 50% 50%;
+    height: 500px;
+    width: 350px;
   }
-  main #articulos .articulo1 img {
-    object-fit: cover;
+  body main #articulos .articulo1 img {
     width: 100%;
-    height: 300px;
+    height: 250px;
   }
-  main #articulos .articulo1 .texto-articulo1 {
+  body main #articulos .articulo1 .texto-articulo1 {
     margin: 0 5%;
   }
-  main #articulos .articulo1 .texto-articulo1 h2 {
-    font-family: Libre Baskerville, Arial;
-    font-weight: 300;
-    font-size: 40px;
+  body main #articulos .articulo1 .texto-articulo1 h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
   }
-  main #articulos .articulo1 .texto-articulo1 p {
+  body main #articulos .articulo1 .texto-articulo1 p {
     font-family: Outfit, Arial;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
   }
-  main #articulos .articulo2 {
+  body main #articulos .articulo2 {
     display: grid;
-    grid-template-columns: 65% 35%;
-    border: 2px solid black;
-    height: 300px;
-    margin-bottom: 80px;
+    grid-template-columns: unset;
+    grid-template-rows: 50% 50%;
+    height: 500px;
+    width: 350px;
   }
-  main #articulos .articulo2 img {
-    object-fit: cover;
+  body main #articulos .articulo2 img {
     width: 100%;
-    height: 300px;
+    height: 250px;
   }
-  main #articulos .articulo2 .texto-articulo2 {
+  body main #articulos .articulo2 .texto-articulo2 {
     margin: 0 5%;
   }
-  main #articulos .articulo2 .texto-articulo2 h2 {
-    font-family: Libre Baskerville, Arial;
-    font-weight: 300;
-    font-size: 40px;
+  body main #articulos .articulo2 .texto-articulo2 h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
   }
-  main #articulos .articulo2 .texto-articulo2 p {
+  body main #articulos .articulo2 .texto-articulo2 p {
     font-family: Outfit, Arial;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
   }
-  main #articulos .articulo3 {
+  body main #articulos .articulo3 {
     display: grid;
-    grid-template-columns: 35% 65%;
-    border: 2px solid black;
-    height: 300px;
+    grid-template-columns: unset;
+    grid-template-rows: 50% 50%;
+    height: 500px;
+    width: 350px;
   }
-  main #articulos .articulo3 img {
-    object-fit: cover;
+  body main #articulos .articulo3 img {
     width: 100%;
-    height: 300px;
+    height: 250px;
   }
-  main #articulos .articulo3 .texto-articulo3 {
+  body main #articulos .articulo3 .texto-articulo3 {
     margin: 0 5%;
   }
-  main #articulos .articulo3 .texto-articulo3 h2 {
-    font-family: Libre Baskerville, Arial;
-    font-weight: 300;
-    font-size: 40px;
+  body main #articulos .articulo3 .texto-articulo3 h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
   }
-  main #articulos .articulo3 .texto-articulo3 p {
+  body main #articulos .articulo3 .texto-articulo3 p {
     font-family: Outfit, Arial;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
   }
-  main #proyectos {
+  body main #proyectos {
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
+    justify-content: center;
+    width: 300px;
   }
-  main #proyectos .titulo h2 {
+  body main #proyectos .titulo {
+    width: 350px;
+    margin-top: 80px;
+    margin-right: 640px;
+  }
+  body main #proyectos .titulo h2 {
     font-family: Libre Baskerville, Arial;
     font-weight: 400;
     text-align: center;
-    margin-top: -20px;
-    font-size: 40px;
+    font-size: 25px;
   }
-  main #proyectos .proyectos-totales {
+  body main #proyectos .proyectos-totales {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    margin-right: 600px;
   }
-  main #proyectos .proyectos-totales .pryct {
+  body main #proyectos .proyectos-totales .pryct {
     display: grid;
     height: auto;
-    width: 800px;
+    width: 350px;
     grid-template-columns: 10% 90%;
   }
-  main #proyectos .proyectos-totales .pryct img {
+  body main #proyectos .proyectos-totales .pryct img {
     display: flex;
     height: 40px;
     width: 40px;
     align-self: center;
   }
-  main #proyectos .proyectos-totales .pryct p {
+  body main #proyectos .proyectos-totales .pryct p {
     font-family: Outfit, Arial;
-    font-weight: 200;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
   }
-  main .cartaCarta {
+  body main .cartaCarta {
     display: flex;
     justify-content: center;
+    margin: 50px 0;
   }
-  main .cartaCarta #carta {
+  body main .cartaCarta #carta {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    margin: 50px;
+    margin: unset;
     background-color: #98211F;
-    width: 1000px;
+    width: 350px;
     border-radius: 30px;
     transition: 0.2s ease;
   }
-  main .cartaCarta #carta:hover {
+  body main .cartaCarta #carta:hover {
     transform: scale(1.05);
     transition: 0.2s ease;
   }
-  main .cartaCarta #carta .carta {
-    width: 800px;
+  body main .cartaCarta #carta .carta {
+    width: 300px;
     height: auto;
-    padding: 50px;
+    padding: 20px;
   }
-  main .cartaCarta #carta .carta .titulo-carta h2 {
-    font-size: 40px;
+  body main .cartaCarta #carta .carta .titulo-carta h2 {
+    font-size: 30px;
     font-family: Libre Baskerville, Arial;
     font-weight: 400;
     text-align: center;
     color: #551211;
   }
-  main .cartaCarta #carta .carta .texto-carta p {
+  body main .cartaCarta #carta .carta .texto-carta p {
     font-family: Outfit, Arial;
     font-weight: 400;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     color: #551211;
   }
 }

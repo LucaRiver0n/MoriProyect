@@ -1,278 +1,292 @@
-@media (max-width: 480px){
-    header{
-        width: 400px;
-        height: 1%;
-       
-        a{
-            font-size: 9px;
-            margin: 0 1px;
+@media (max-width: 1480px){
+body{
+    overflow-x: hidden;
+        header{
+            width: 389px;
+            height: 1%;
+        
+            a{
+                font-size: 9px;
+                margin: 0 1px;
+            }
         }
-    }
-    
-    
-    
-    
-    main{
-        display: flex;
-        flex-direction: column;
         
         
-        #inicio{
-            width: 362px;
+        
+        
+        main{
+            display: flex;
+            flex-direction: column;
             
-            .fotos-inicio{
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: center;
-                margin: 30px 0;
-               
-                img{
-                    object-fit: cover;
-                    position: relative;
-                    margin: 0 10px;
-                   
-                    
-                }
-                .foto5{
-                    width: 300px;
-                    height: 30vh ;
-                    
-                }
-                .foto1{
-                    width: 300px;
-                    height: 30vh ;
-                    
-                }
+            
+            #inicio{
+                width: 362px;
                 
-            }
-            .texto-inicio{
-                width: 500px;
-                height: 40vh;
-                margin: 80px 0 0 -70px;
-                
-                
-                h1{
-                    font-weight: 300;
-                    font-size: 25px;
-                    margin: 10px;
-                }
-                p{
-                    font-weight: 400;
-                    font-size: 10px; 
-                }
-                a{
-                    font-size: 12px;
-                    padding: 5px;
-                    width: 80px;
-                    margin-left: 200px;
-                }
-            }
-        }
-    
-        // SEGUDNDA PARTE DE LA PAGINA ---------------
-    
-        #fotosDeNosotros{
-            display: flex;
-            flex-flow: column wrap;
-            margin: 10px 0 0 0;
-            .titulo-fotos{
-                h2{
-                    font-family: $primary-font;
-                    font-weight: 300;
-                    // text-align: center;
-                    // align-items: center;
-                    font-size: 20px;
-                    color: rgb(17, 16, 16);
-                }
-            }
-            .fotos{
-                display: flex;
-                flex-direction: column;
-                margin: 40px 0;
-                justify-content: center;
-                img{
+                .fotos-inicio{
                     display: flex;
-                    width: 200px;
-                    height: 350px;
-                    object-fit: cover;
-                    margin: 0 40px;
-                    box-shadow: 5px 3px 15px rgb(204, 204, 204);
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    margin: 30px 0;
+                
+                    img{
+                        object-fit: cover;
+                        position: relative;
+                        margin: 0 10px;
+                    
+                        
+                    }
+                    .foto5{
+                        width: 300px;
+                        height: 30vh ;
+                        
+                    }
+                    .foto1{
+                        width: 300px;
+                        height: 30vh ;
+                        
+                    }
+                    
                 }
-                p{
-                    // text-align: center;
-                    font-family: $second-font;
-                    font-weight: 400;
+                .texto-inicio{
+                    width: 350px;
+                    height: 40vh;
+                    margin: 70px 0 0 20px;
+                    
+                    
+                    h1{
+                        width: 300px;
+                        font-weight: 300;
+                        font-size: 25px;
+                        margin: 10px;
+                    }
+                    p{
+                        width: 300px;
+                        font-weight: 400;
+                        font-size: 10px; 
+                        margin-right: 90px;
+                    }
+                    a{
+                        font-size: 12px;
+                        padding: 5px;
+                        width: 80px;
+                        margin-left: 100px;
+                    }
                 }
             }
-        }
-        // ---------------------- TERCERA PARTE ------------------------------------
-    
-        #articulos{
-            display: grid;
-            margin: 0 400px 100px 400px;
-            width: 1020px;
         
-            .articulo1{
-                display: grid;
-                grid-template-columns: 35% 65%;
-                border: 2px solid black;
-                height: 300px;
-                margin-bottom: 80px;
-                
-                img{
-                    object-fit: cover;
-                    width: 100%;
-                    height: 300px;
-                }
-                .texto-articulo1{
-                    margin: 0 5%;
+            // SEGUDNDA PARTE DE LA PAGINA ---------------
+        
+            #fotosDeNosotros{
+                width: 300px;
+                .titulo-fotos{
                     h2{
-                        font-family: $primary-font;
-                        font-weight: 300;
-                        font-size: 40px;
-                    }
-                    p{
-                        font-family: $second-font;
-                        font-weight: 200;
+                        display: flex;
+                        margin-left: 35px;
+                        margin-top: 20px;
                         font-size: 20px;
                     }
-    
                 }
-            }
-    
-            .articulo2{
-                display: grid;
-                grid-template-columns: 65% 35%;
-                border: 2px solid black;
-                height: 300px;
-                margin-bottom: 80px;
-                img{
-                    object-fit: cover;
-                    width: 100%;
-                    height: 300px;
-                }
-                .texto-articulo2{
-                    margin: 0 5%;
-                    h2{
-                        font-family: $primary-font;
-                        font-weight: 300;
-                        font-size: 40px;
-                    }
-                    p{
-                        font-family: $second-font;
-                        font-weight: 200;
-                        font-size: 20px;
-                    }
-    
-                }
-            }
-    
-            .articulo3{
-                display: grid;
-                grid-template-columns: 35% 65%;
-                border: 2px solid black;
-                height: 300px;
-                
-                img{
-                    object-fit: cover;
-                    width: 100%;
-                    height: 300px;
-                }
-                .texto-articulo3{
-                    margin: 0 5%;
-                    h2{
-                        font-family: $primary-font;
-                        font-weight: 300;
-                        font-size: 40px;
-                    }
-                    p{
-                        font-family: $second-font;
-                        font-weight: 200;
-                        font-size: 20px;
-                    }
-    
-                }
-            }
-        }
-    
-        // PARTE DE PROYECTOS DE LA PAGINA ---------------------------
-    
-        #proyectos{
-            display: flex;
-            flex-flow: column wrap;
-            align-items: center;
-            .titulo{
-                h2{
-                font-family: $primary-font;
-                font-weight: 400;
-                text-align: center;
-                margin-top: -20px;
-                font-size: 40px;
-                }
-            }
-            .proyectos-totales{
-                display: flex;
-                flex-flow: column wrap;
-                justify-content: center;
-                .pryct{
-                    display: grid;
-                    height: auto;
-                    width: 800px;
-                    grid-template-columns: 10% 90%;
+                .fotos{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 20px 0;
                     
                     img{
                         display: flex;
-                        height: 40px;
-                        width: 40px;
-                        align-self: center;
+                        width: 300px;
+                        height: 350px;
+                        margin: 20px 40px;
                     }
                     p{
+                        display: flex;
                         font-family: $second-font;
-                        font-weight: 200;
-                        font-size: 20px;
+                        font-weight: 400;
+                        margin-left: 180px;
                     }
                 }
             }
-        }
-    
-    //  ----------   PARTE DE LA CARTAAAAAA --------------------------------------------
-    .cartaCarta{
-        display: flex;
-        justify-content: center;
-            #carta{
-                display: flex;
-                flex-flow: column wrap;
-                align-items: center;
-                margin: 50px;
-                background-color: #98211F;
-                width: 1000px;
-                border-radius: 30px;
-                transition: 0.2s ease;
-                    &:hover{
-                        transform: scale(1.05);
-                        transition: 0.2s ease;
+            // ---------------------- TERCERA PARTE ------------------------------------
+        
+            #articulos{
+                display: grid;
+                margin: 0 20px;
+                width: 363px;
+            
+                .articulo1{
+                    display: grid;
+                    grid-template-columns: unset;
+                    grid-template-rows: 50% 50% ;
+                    height: 500px;
+                    width: 350px;
+                    
+                    
+                    img{
+                        width: 100%;
+                        height: 250px;
                     }
-                .carta{
-                width: 800px;
-                height: auto;
-                padding: 50px;
-                
-                    .titulo-carta{
+                    .texto-articulo1{
+                        margin: 0 5%;
                         h2{
-                            font-size: 40px;
-                            font-family: $primary-font;
-                            font-weight: 400;
+                            font-size: 30px;
+                            margin-top: 10px;
                             text-align: center;
-                            color:#551211;
                         }
+                            p{
+                                font-family: $second-font;
+                                font-weight: 200;
+                                font-size: 15px;
+                                text-align: center;
+                                
                     }
-                    .texto-carta{
+        
+                    }
+                }
+        
+                .articulo2{
+                    display: grid;
+                    grid-template-columns: unset;
+                    grid-template-rows: 50% 50% ;
+                    height: 500px;
+                    width: 350px;
+                    img{
+                        
+                        width: 100%;
+                        height: 250px;
+            
+                    }
+                    .texto-articulo2{
+                        margin: 0 5%;
+                        h2{
+                            font-size: 30px;
+                            margin-top: 10px;
+                            text-align: center;
+                        }
                         p{
                             font-family: $second-font;
-                            font-weight: 400;
+                            font-weight: 200;
+                            font-size: 15px;
                             text-align: center;
-                            font-size: 20px;
-                            color: #551211;
+                        }
+        
+                    }
+                }
+        
+                .articulo3{
+                    display: grid;
+                    grid-template-columns: unset;
+                    grid-template-rows: 50% 50% ;
+                    height: 500px;
+                    width: 350px;
+                    
+                    img{
+                        width: 100%;
+                        height: 250px;
+                    }
+                    .texto-articulo3{
+                        margin: 0 5%;
+                        h2{
+                            font-size: 30px;
+                            margin-top: 10px;
+                            text-align: center;
+                        }
+                        p{
+                            font-family: $second-font;
+                            font-weight: 200;
+                            font-size: 15px;
+                            text-align: center;
+                        }
+        
+                    }
+                }
+            }
+        
+            // PARTE DE PROYECTOS DE LA PAGINA ---------------------------
+        
+            #proyectos{
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                width: 300px;
+                
+                .titulo{
+                    width: 350px;
+                    margin-top: 80px;
+                    margin-right: 640px;
+                    h2{
+                    font-family: $primary-font;
+                    font-weight: 400;
+                    text-align: center;
+                    font-size: 25px;
+                    }
+                }
+                .proyectos-totales{
+                    display: flex;
+                    flex-flow: column wrap;
+                    justify-content: center;
+                    margin-right: 600px;
+                    .pryct{
+                        display: grid;
+                        height: auto;
+                        width: 350px;
+                        grid-template-columns: 10% 90%;
+                        
+                        img{
+                            display: flex;
+                            height: 40px;
+                            width: 40px;
+                            align-self: center;
+                        }
+                        p{
+                            font-family: $second-font;
+                            font-weight: 500;
+                            font-size: 18px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        
+        //  ----------   PARTE DE LA CARTAAAAAA --------------------------------------------
+        .cartaCarta{
+            display: flex;
+            justify-content: center;
+            margin: 50px 0;
+                #carta{
+                    display: flex;
+                    flex-flow: column wrap;
+                    align-items: center;
+                    margin: unset;
+                    background-color: #98211F;
+                    width: 350px;
+                    border-radius: 30px;
+                    transition: 0.2s ease;
+                        &:hover{
+                            transform: scale(1.05);
+                            transition: 0.2s ease;
+                        }
+                    .carta{
+                    width: 300px;
+                    height: auto;
+                    padding: 20px;
+                    
+                        .titulo-carta{
+                            h2{
+                                font-size: 30px;
+                                font-family: $primary-font;
+                                font-weight: 400;
+                                text-align: center;
+
+                                color:#551211;
+                            }
+                        }
+                        .texto-carta{
+                            p{
+                                font-family: $second-font;
+                                font-weight: 400;
+                                text-align: center;
+                                font-size: 15px;
+                                color: #551211;
+                            }
                         }
                     }
                 }
