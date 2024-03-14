@@ -2,6 +2,7 @@ main{
     display: flex;
     flex-direction: column;
     
+    
     #inicio{
         display: flex;
         flex-flow: column wrap;
@@ -203,6 +204,90 @@ main{
                     font-size: 20px;
                 }
 
+            }
+        }
+    }
+
+    // PARTE DE PROYECTOS DE LA PAGINA ---------------------------
+
+    #proyectos{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        .titulo{
+            h2{
+            font-family: $primary-font;
+            font-weight: 400;
+            text-align: center;
+            margin-top: -20px;
+            font-size: 40px;
+            }
+        }
+        .proyectos-totales{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            .pryct{
+                display: grid;
+                height: auto;
+                width: 800px;
+                grid-template-columns: 10% 90%;
+                
+                img{
+                    display: flex;
+                    height: 40px;
+                    width: 40px;
+                    align-self: center;
+                }
+                p{
+                    font-family: $second-font;
+                    font-weight: 200;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+//  ----------   PARTE DE LA CARTAAAAAA --------------------------------------------
+.cartaCarta{
+    display: flex;
+    justify-content: center;
+        #carta{
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            margin: 50px;
+            background-color: #98211F;
+            width: 1000px;
+            border-radius: 30px;
+            transition: 0.2s ease;
+                &:hover{
+                    transform: scale(1.05);
+                    transition: 0.2s ease;
+                }
+            .carta{
+            width: 800px;
+            height: auto;
+            padding: 50px;
+            
+                .titulo-carta{
+                    h2{
+                        font-size: 40px;
+                        font-family: $primary-font;
+                        font-weight: 400;
+                        text-align: center;
+                        color:#551211;
+                    }
+                }
+                .texto-carta{
+                    p{
+                        font-family: $second-font;
+                        font-weight: 400;
+                        text-align: center;
+                        font-size: 20px;
+                        color: #551211;
+                    }
+                }
             }
         }
     }
